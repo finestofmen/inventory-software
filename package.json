@@ -1,0 +1,20 @@
+{
+  "name": "inventory-software",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon sever.js"
+  },
+  "keywords": ["inventory", "management", "nodejs", "mongodb", "express"],
+  "author": "Precious Pwajok",
+  "license": "ISC",
+  "description": "A Node.js inventory management system",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
+  }
+}
